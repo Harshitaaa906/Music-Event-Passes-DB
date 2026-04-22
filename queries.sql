@@ -1,12 +1,8 @@
--- =========================================
--- Music Event Passes Database
--- MySQL Analytical Queries
--- =========================================
 
 USE music_event_db;
 
 -- =========================================
--- BASIC DATA VIEW
+--  DATA VIEW
 -- =========================================
 
 -- View all events
@@ -25,7 +21,7 @@ SELECT * FROM sale;
 SELECT * FROM scan_log;
 
 -- =========================================
--- JOIN QUERIES (CORE DBMS)
+-- JOIN QUERIES 
 -- =========================================
 
 -- Attendee with sale details
