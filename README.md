@@ -1,10 +1,5 @@
 # Music-Event-Passes-DB
 
-
-**MySQL · DBMS Project · Peak Sales Analytics + Gate Scanning Logs**
-
----
-
 ## About This Project
 
 This project simulates a real-world **music event ticketing system** built entirely in MySQL. It handles everything from organizing events and selling passes to tracking entry scans at the gate — with full automation via stored procedures and triggers.
@@ -57,7 +52,7 @@ music_event_passes_db/
 ├── index.sql         → 10 indexes for query optimization
 ├── queries.sql       → all analytical queries used in the project
 ├── transactions.sql  → ACID transaction demonstrations
-└── screenshots/      → MySQL Workbench output screenshots
+└── screenshots      → MySQL Workbench output screenshots
 ```
 
 ---
@@ -71,7 +66,7 @@ data.sql
 triggers.sql
 procedure.sql
 views.sql
-index.sql
+
 ```
 
 **Step 2 — Run any query from `queries.sql` or use the stored procedures:**
@@ -100,8 +95,4 @@ SELECT * FROM scan_alerts;
 ## Author
 **Harshita Upadhyaya**  
 
-DBMS Project — Academic Submission
 
----
-
-> *Built for learning purposes to demonstrate real-world database design patterns using MySQL.*
